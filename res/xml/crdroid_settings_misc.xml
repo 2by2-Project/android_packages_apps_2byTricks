@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2016-2023 crDroid Android Project
+     Copyright (C) 2016-2023 2by2 Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -32,14 +32,14 @@
     </Preference>
 
     <!-- Unlock FPS for specific games -->
-    <com.crdroid.settings.preferences.SystemPropertySwitchPreference
+    <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
         android:key="persist.sys.pixelprops.games"
         android:icon="@drawable/ic_backup"
         android:title="@string/use_games_spoof_title"
         android:summary="@string/use_games_spoof_summary" />
 
     <!-- Unlimited google photos storage -->
-    <com.crdroid.settings.preferences.SystemPropertySwitchPreference
+    <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
         android:key="persist.sys.pixelprops.gphotos"
         android:icon="@drawable/ic_backup"
         android:title="@string/use_photos_spoof_title"
@@ -47,7 +47,7 @@
         android:defaultValue="true" />
 
     <!-- Netflix -->
-    <com.crdroid.settings.preferences.SystemPropertySwitchPreference
+    <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
         android:key="persist.sys.pixelprops.netflix"
         android:icon="@drawable/ic_netflix"
         android:title="@string/netflix_spoof_title"
@@ -60,7 +60,7 @@
         android:icon="@drawable/ic_google"
         android:title="@string/gms_enabled_title"
         android:summary="@string/gms_enabled_summary"
-        android:fragment="com.crdroid.settings.fragments.misc.GmsSwitch"/> -->
+        android:fragment="jp.project2by2.settings.fragments.misc.GmsSwitch"/> -->
 
     <!-- Parallel space
     <Preference
@@ -74,7 +74,7 @@
     </Preference> -->
 
     <!-- Three-fingers-swipe to screenshot -->
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
         android:icon="@drawable/ic_three_finger_gesture"
         android:title="@string/three_finger_gesture"
@@ -87,10 +87,10 @@
         android:icon="@drawable/ic_remote"
         android:title="@string/sensor_block_title"
         android:summary="@string/sensor_block_summary"
-        android:fragment="com.crdroid.settings.fragments.misc.SensorBlock"/>
+        android:fragment="jp.project2by2.settings.fragments.misc.SensorBlock"/>
 
     <!-- Pocket Judge -->
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="pocket_judge"
         android:icon="@drawable/ic_pocket"
         android:title="@string/pocket_judge_title"

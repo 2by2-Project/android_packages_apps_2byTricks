@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2020 crDroid Android Project
+     Copyright (C) 2017-2020 2by2 Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@
         android:id="@+id/crdroid_content"
         android:orientation="vertical">
 
-        <com.crdroid.settings.PagerSlidingTabStrip
+        <jp.project2by2.settings.PagerSlidingTabStrip
             android:id="@+id/tabs"
             app:pstsShouldExpand="false"
             app:pstsTabTextFontFamily="@*android:string/config_headlineFontFamilyMedium"
@@ -44,6 +44,6 @@
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context=".crDroidSettingsLayout"/>
+            tools:context=".2by2 ProjectSettingsLayout"/>
     </LinearLayout>
 </RelativeLayout>

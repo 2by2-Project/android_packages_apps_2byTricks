@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2023 crDroid Android Project
+     Copyright (C) 2016-2023 2by2 Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -19,14 +19,14 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
         android:icon="@drawable/ic_light_switch"
         android:title="@string/alert_slider_notifications_title"
         android:summary="@string/alert_slider_notifications_summary"
         android:defaultValue="true" />
 
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
         android:icon="@drawable/ic_bell_ring"
         android:title="@string/notification_sound_vib_screen_on_title"
@@ -34,14 +34,14 @@
         android:defaultValue="true" />
 
     <!-- Notification guts kill app button -->
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_guts_kill_app_button"
         android:icon="@drawable/ic_kill"
         android:title="@string/notification_guts_kill_app_button_title"
         android:summary="@string/notification_guts_kill_app_button_summary" />
 
     <!-- Show clipboard overlay -->
-    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
         android:key="show_clipboard_overlay"
         android:icon="@drawable/ic_clipboard_alert"
         android:title="@string/show_clipboard_overlay_title"
@@ -52,7 +52,7 @@
         android:key="heads_up"
         android:title="@string/notification_heads_up_title">
 
-        <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+        <jp.project2by2.settings.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
             android:icon="@drawable/ic_headsup"
             android:title="@string/notification_heads_up_title"
@@ -64,10 +64,10 @@
             android:icon="@drawable/ic_message_fast"
             android:title="@string/island_notification_title"
             android:summary="@string/island_notification_summary"
-            android:fragment="com.crdroid.settings.fragments.notifications.IslandSettings"
+            android:fragment="jp.project2by2.settings.fragments.notifications.IslandSettings"
             android:dependency="heads_up_notifications_enabled" />
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
             android:key="less_boring_heads_up"
             android:icon="@drawable/ic_headsup_sleep"
             android:title="@string/less_boring_heads_up_title"
@@ -75,7 +75,7 @@
             android:defaultValue="false"
             android:dependency="heads_up_notifications_enabled" />
 
-        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+        <jp.project2by2.settings.preferences.SystemSettingSeekBarPreference
             android:key="heads_up_timeout"
             android:icon="@drawable/ic_clock"
             android:title="@string/notification_heads_up_timeout_title"
@@ -91,7 +91,7 @@
         android:key="flashlight_category"
         android:title="@string/power_menu_torch_title">
 
-        <com.crdroid.settings.preferences.SystemSettingListPreference
+        <jp.project2by2.settings.preferences.SystemSettingListPreference
             android:key="flashlight_on_call"
             android:icon="@drawable/ic_flashlight"
             android:title="@string/flashlight_on_call_title"
@@ -99,14 +99,14 @@
             android:entryValues="@array/flashlight_on_call_values"
             android:defaultValue="0" />
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
             android:key="flashlight_on_call_ignore_dnd"
             android:icon="@drawable/ic_flashlight"
             android:title="@string/flashlight_on_call_ignore_dnd_title"
             android:summary="@string/flashlight_on_call_ignore_dnd_summary"
             android:defaultValue="false" /> 
 
-        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+        <jp.project2by2.settings.preferences.SystemSettingSeekBarPreference
             android:key="flashlight_on_call_rate"
             android:icon="@drawable/ic_flashlight"
             android:title="@string/flashlight_on_call_rate_title"
@@ -127,7 +127,7 @@
             android:icon="@drawable/ic_led_on"
             android:title="@string/battery_light_title"
             android:summary="@string/battery_light_summary"
-            android:fragment="com.crdroid.settings.fragments.notifications.notificationlight.BatteryLightSettings" />
+            android:fragment="jp.project2by2.settings.fragments.notifications.notificationlight.BatteryLightSettings" />
 
         <!-- Notification lights -->
         <Preference
@@ -135,7 +135,7 @@
             android:icon="@drawable/ic_led_on"
             android:title="@string/notification_light_title"
             android:summary="@string/notification_light_summary"
-            android:fragment="com.crdroid.settings.fragments.notifications.notificationlight.NotificationLightSettings" />
+            android:fragment="jp.project2by2.settings.fragments.notifications.notificationlight.NotificationLightSettings" />
     </PreferenceCategory>
 
 </PreferenceScreen>

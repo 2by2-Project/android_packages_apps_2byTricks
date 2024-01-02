@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2023 crDroid Android Project
+     Copyright (C) 2016-2023 2by2 Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@
         android:title="@string/navbar_visibility_title"
         android:summary="@string/navbar_visibility_summary" />
 
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="pixel_nav_animation"
         android:icon="@drawable/ic_google_circles"
         android:title="@string/pixel_navbar_anim_title"
@@ -45,7 +45,7 @@
             android:summary="@string/navbar_arrow_keys_summary"
             android:defaultValue="false" />
 
-        <com.crdroid.settings.preferences.SecureSettingListPreference
+        <jp.project2by2.settings.preferences.SecureSettingListPreference
             android:key="navbar_layout_views"
             android:icon="@drawable/ic_navbar_layout"
             android:title="@string/navbar_layout_title"
@@ -54,7 +54,7 @@
             android:entryValues="@array/navbar_layout_values"
             android:defaultValue="default" />
 
-        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+        <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
             android:key="navbar_inverse_layout"
             android:icon="@drawable/ic_navbar_layout"
             android:title="@string/navbar_invert_layout_title"

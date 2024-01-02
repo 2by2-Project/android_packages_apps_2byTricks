@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2023 crDroid Android Project
+     Copyright (C) 2016-2023 2by2 Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Impostazioni crDroid</string>
+    <string name="crdroid_settings_title">Impostazioni 2by2 Project</string>
     <string name="crdroid_settings_summary">Dove avviene la magia</string>
     <string name="reset_settings_title">Ripristina le impostazioni iniziali</string>
     <string name="reset_settings_message">Questo ripristinerà la maggior parte delle impostazioni crdroid ai loro valori predefiniti per l\'utente corrente. Vuoi continuare?</string>
@@ -58,15 +58,15 @@
     <string name="changelog_crdroid_title">Modifiche correnti</string>
     <string name="changelog_crdroid_summary">Visualizza le modifiche della ROM installata</string>
     <string name="changelog_crdroid_error">Impossibile caricare l\'elenco delle modifiche</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Informazioni su crDroid</string>
+    <!-- About 2by2 Project -->
+    <string name="about_crdroid">Informazioni su 2by2 Project</string>
     <string name="about_device_name">Dispositivo</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Condividi crDroid</string>
-    <string name="share_crdroid_summary">Fai conoscere crDroid agli altri</string>
-    <string name="share_message">Controlla se #crDroidAndroid è disponibile per il tuo dispositivo @ https://crdroid.net</string>
-    <string name="share_chooser_title">Condividi crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share 2by2 Project -->
+    <string name="share_crdroid_title">Condividi 2by2 Project</string>
+    <string name="share_crdroid_summary">Fai conoscere 2by2 Project agli altri</string>
+    <string name="share_message">Controlla se #2by2 Project è disponibile per il tuo dispositivo @ https://crdroid.net</string>
+    <string name="share_chooser_title">Condividi 2by2 Project</string>
+    <!-- Sites 2by2 Project -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Noi amiamo l\'open source, vieni a trovarci</string>
     <string name="crdroid_telegram_title">Comunità CrDroid</string>
@@ -79,10 +79,10 @@
     <string name="crdroid_translate_summary">Aiutaci a tradurre la ROM nella tua lingua!</string>
     <string name="crdroid_sponsor_summary">Visita il nostro sito host partner</string>
     <string name="crdroid_buildserversponsor_summary">Consigliamo i loro server se interposti in uno</string>
-    <!-- Donate crDroid -->
+    <!-- Donate 2by2 Project -->
     <string name="donate_crdroid_title">Supportaci</string>
     <string name="donate_crdroid_summary">Dona per sostenere l\'ulteriore sviluppo</string>
-    <string name="donate_team_title">team crDroid</string>
+    <string name="donate_team_title">team 2by2 Project</string>
     <string name="donate_team_summary">Fai una donazione per supportare l\'hosting del server, l\'uptime del sito e la gestione complessiva</string>
     <!-- The Drill -->
     <string name="drill_title">The Drill</string>
@@ -549,8 +549,8 @@
     <string name="qs_footer_show_power_menu_title">Scorciatoia menù alimentazione</string>
     <string name="qs_footer_services_icon_title">Collegamento ai servizi in esecuzione</string>
     <string name="qs_footer_settings_icon_title">Collegamento alle impostazioni</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">team crDroid</string>
+    <!-- Device Info screen. 2by2 Project legal. -->
+    <string name="crdroid_license_title">team 2by2 Project</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Cursore luminosità</string>
     <string name="qs_show_brightness_slider_title">Cursore luminosità</string>
@@ -950,7 +950,7 @@
     <string name="status_bar_logo_summary">Mostra un logo personalizzato a sinistra o a destra della barra di stato</string>
     <string name="status_bar_logo_position_title">Posizione logo</string>
     <string name="status_bar_logo_style_title">Stile logo</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
+    <string name="status_bar_logo_style_crdroid">2by2 Project</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alieno</string>

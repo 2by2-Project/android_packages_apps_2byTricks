@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2022 2by2 Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@
         android:icon="@drawable/ic_pulse"
         android:title="@string/pulse_settings"
         android:summary="@string/pulse_settings_summary"
-        android:fragment="com.crdroid.settings.fragments.sound.PulseSettings" />
+        android:fragment="jp.project2by2.settings.fragments.sound.PulseSettings" />
 
     <!-- Live volume steps -->
     <Preference
@@ -33,10 +33,10 @@
         android:icon="@drawable/ic_settings_sound"
         android:title="@string/volume_steps_title"
         android:summary="@string/volume_steps_summary"
-        android:fragment="com.crdroid.settings.fragments.sound.VolumeSteps" />
+        android:fragment="jp.project2by2.settings.fragments.sound.VolumeSteps" />
 
     <!-- Screenshot Sound  -->
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="screenshot_shutter_sound"
         android:icon="@drawable/ic_cellphone_sound"
         android:title="@string/screenshot_shutter_sound_title"
@@ -49,7 +49,7 @@
         android:icon="@drawable/ic_settings_sound"
         android:title="@string/adaptive_playback_title"
         android:summary="@string/adaptive_playback_summary"
-        android:fragment="com.crdroid.settings.fragments.sound.AdaptivePlayback" />
+        android:fragment="jp.project2by2.settings.fragments.sound.AdaptivePlayback" />
 
     <!-- Volume panel -->
     <PreferenceCategory
@@ -61,7 +61,7 @@
             android:icon="@drawable/ic_settings_sound"
             android:title="@string/volume_panel_on_left_title" />
 
-        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+        <jp.project2by2.settings.preferences.SystemSettingSeekBarPreference
             android:key="volume_dialog_timeout"
             android:icon="@drawable/ic_music_note"
             android:title="@string/volume_dialog_timeout_title"
@@ -76,19 +76,19 @@
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_connect"
             android:icon="@drawable/ic_vibrate"
             android:title="@string/incall_vibrate_connect_title"
             android:defaultValue="false" />
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_callwaiting"
             android:icon="@drawable/ic_vibrate"
             android:title="@string/incall_vibrate_call_wait_title"
             android:defaultValue="false" />
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_disconnect"
             android:icon="@drawable/ic_vibrate"
             android:title="@string/incall_vibrate_disconnect_title"

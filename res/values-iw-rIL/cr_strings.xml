@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2023 crDroid Android Project
+     Copyright (C) 2016-2023 2by2 Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">הגדרות crDroid</string>
+    <string name="crdroid_settings_title">הגדרות 2by2 Project</string>
     <string name="crdroid_settings_summary">לפתוח את הטוב</string>
     <string name="reset_settings_title">איפוס הגדרות</string>
-    <string name="reset_settings_message">הגדרה זו תאפס את רוב הגדרות crDroid לערכי ברירת המחדל, להמשיך?</string>
+    <string name="reset_settings_message">הגדרה זו תאפס את רוב הגדרות 2by2 Project לערכי ברירת המחדל, להמשיך?</string>
     <!-- Personalization Categories -->
     <string name="button_title">מקשים</string>
     <string name="lockscreen_title">מסך נעילה</string>
@@ -58,18 +58,18 @@
     <string name="changelog_crdroid_title">יומן השינויים הנוכחי</string>
     <string name="changelog_crdroid_summary">ראה שינויים ברום שהותקן</string>
     <string name="changelog_crdroid_error">טעינת יומן השינויים נכשלה</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">אודות crDroid</string>
+    <!-- About 2by2 Project -->
+    <string name="about_crdroid">אודות 2by2 Project</string>
     <string name="about_device_name">מכשיר</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">שתף crDroid</string>
-    <string name="share_crdroid_summary">עזור לאנשים אחרים לדעת אודות crDroid</string>
-    <string name="share_message">בדוק האם crDroidAndroid# זמין למכשיר שלך https://crdroid.net/</string>
-    <string name="share_chooser_title">שתף crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share 2by2 Project -->
+    <string name="share_crdroid_title">שתף 2by2 Project</string>
+    <string name="share_crdroid_summary">עזור לאנשים אחרים לדעת אודות 2by2 Project</string>
+    <string name="share_message">בדוק האם 2by2 Project# זמין למכשיר שלך https://crdroid.net/</string>
+    <string name="share_chooser_title">שתף 2by2 Project</string>
+    <!-- Sites 2by2 Project -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">אנחנו אוהבים מקור פתוח, בדוק אותנו</string>
-    <string name="crdroid_telegram_title">קהילת crDroid</string>
+    <string name="crdroid_telegram_title">קהילת 2by2 Project</string>
     <string name="crdroid_telegram_summary">אנחנו גם בטלגרם, תצטרף אלינו!</string>
     <string name="crdroid_telegram_channel_title">ערוץ עדכונים</string>
     <string name="crdroid_telegram_channel_summary">קבל הודעה בטלגרם אודות עדכונים חדשים</string>
@@ -79,10 +79,10 @@
     <string name="crdroid_translate_summary">עזור לנו להתאים את ה-ROM לשפה שלך!</string>
     <string name="crdroid_sponsor_summary">בקרו במארח האתרים השותף שלנו</string>
     <string name="crdroid_buildserversponsor_summary">אנו ממליצים על השרתים שלהם, את יש לך עניין בכזה</string>
-    <!-- Donate crDroid -->
+    <!-- Donate 2by2 Project -->
     <string name="donate_crdroid_title">תמוך בנו</string>
     <string name="donate_crdroid_summary">תמוך בנו כדי לאפשר המשך פיתוח עתידי</string>
-    <string name="donate_team_title">צוות crDroid</string>
+    <string name="donate_team_title">צוות 2by2 Project</string>
     <string name="donate_team_summary">תירמו לתמיכה בשרתי האחסון, הפעלת האתר והניהול הכללי</string>
     <!-- The Drill -->
     <string name="drill_title">התהליך</string>
@@ -551,8 +551,8 @@
     <string name="qs_footer_show_power_menu_title">קיצור דרך לתפריט הפעלה</string>
     <string name="qs_footer_services_icon_title">קיצור דרך להפעלת שירותים</string>
     <string name="qs_footer_settings_icon_title">קיצור דרך להגדרות</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">חוקי crDroid</string>
+    <!-- Device Info screen. 2by2 Project legal. -->
+    <string name="crdroid_license_title">חוקי 2by2 Project</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">סרגל הבהירות</string>
     <string name="qs_show_brightness_slider_title">מחוון בהירות</string>
@@ -954,7 +954,7 @@
     <string name="status_bar_logo_summary">הצגת סמל מסחרי מותאם בימין או בשמאל שורת המצב</string>
     <string name="status_bar_logo_position_title">מיקום הסמל</string>
     <string name="status_bar_logo_style_title">סגנון הסמל</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
+    <string name="status_bar_logo_style_crdroid">2by2 Project</string>
     <string name="status_bar_logo_style_android">אנדרואיד</string>
     <string name="status_bar_logo_style_adidas">אדידס</string>
     <string name="status_bar_logo_style_alien">חייזר</string>

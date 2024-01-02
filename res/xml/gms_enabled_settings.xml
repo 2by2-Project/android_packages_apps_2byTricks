@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023 crDroid Android Project
+     Copyright (C) 2023 2by2 Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/gms_enabled_title">
 
-    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
         android:key="gms_enabled"
         android:title="@string/enable"
         android:summary="@string/gms_enabled_summary"
