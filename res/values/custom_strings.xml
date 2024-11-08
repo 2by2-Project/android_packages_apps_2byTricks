@@ -10,7 +10,7 @@
 
     <!-- Categories -->
     <string name="miscellaneous_title">Miscellaneous</string>
-    <string name="miscellaneous_summary">Developer options, spoofing</string>
+    <string name="miscellaneous_summary">Special settings (use it own risk!)</string>
     <string name="about_title">About</string>
     <string name="about_summary">About 2by2 Project</string>
 
@@ -25,7 +25,7 @@
 
     <!-- Miscellaneous - System -->
     <string name="spoofing_pif_toggle_title">Play Integrity fix</string>
-    <string name="spoofing_pif_toggle_summary">Use the ROM\'s built-in Play Integrity fix values</string>
+    <string name="spoofing_pif_toggle_summary">Use the ROM\'s built-in Play Integrity fix values. Please turn off when you use third party modules. (E.g. TrickyStore)</string>
     <string name="spoofing_pif_manage_title">Manage PIF spoofing values</string>
     <string name="spoofing_pif_json_download_title">Download the general PIF JSON</string>
     <string name="spoofing_pif_json_download_message">Downloading latest pif.json</string>
