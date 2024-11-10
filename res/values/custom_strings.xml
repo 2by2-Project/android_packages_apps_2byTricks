@@ -47,12 +47,10 @@
     <string name="about_github_title" translatable="false">GitHub</string>
     <string name="about_github_summary">Check out our GitHub</string>
     <string name="about_contributors_title">Contributors</string>
-    <string name="about_contributor_1_title" translatable="false">MRC</string>
-    <string name="about_contributor_1_summary" translatable="false">Founder</string>
-    <string name="about_contributor_2_title" translatable="false">lahaina</string>
-    <string name="about_contributor_2_summary" translatable="false">Lead Developer</string>
-    <string name="about_contributor_3_title" translatable="false">Sheelq</string>
-    <string name="about_contributor_3_summary" translatable="false">Designer</string>
+    <string name="about_contributor_1_title" translatable="false">lahaina</string>
+    <string name="about_contributor_1_summary" translatable="false">Founder / Lead Developer</string>
+    <string name="about_contributor_2_title" translatable="false">MRC</string>
+    <string name="about_contributor_2_summary" translatable="false">Social Media Manager</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
