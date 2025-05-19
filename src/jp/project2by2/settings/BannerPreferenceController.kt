@@ -22,6 +22,7 @@ import android.provider.Settings
 import android.text.InputType
 import android.widget.EditText
 import android.widget.TextView
+import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.preference.PreferenceScreen
 import com.airbnb.lottie.LottieAnimationView
@@ -57,6 +58,10 @@ class BannerPreferenceController(context: Context) : AbstractPreferenceControlle
             DeviceInfoUtil.getScreenResolution(mContext)
         bannerPreference.findViewById<TextView>(R.id.battery_info)?.text =
             DeviceInfoUtil.getBatteryCapacity(mContext)
+
+        val maintainerTextVisibility = if (getMaintainerName().isEmpty()) View.GONE else View.VISIBLE
+        bannerPreference.findViewById<TextView>(R.id.maintainer_info)?.visibility = maintainerTextVisibility
+        bannerPreference.findViewById<TextView>(R.id.maintainer_info_title)?.visibility = maintainerTextVisibility
 
         val waveView: LottieAnimationView = bannerPreference.findViewById(R.id.wave_view)
         LottieAnimationUtils.applyAnimationColor(mContext, waveView)
