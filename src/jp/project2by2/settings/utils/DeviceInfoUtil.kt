@@ -170,15 +170,17 @@ object DeviceInfoUtil {
     val cameraManager = context.getSystemService(Context.CAMERA_SERVICE) as CameraManager
     val cameraIdList = cameraManager.cameraIdList
 
-    for (cameraId in cameraIdList) {
-      val characteristics = cameraManager.getCameraCharacteristics(cameraId)
-      val facing = characteristics.get(CameraCharacteristics.LENS_FACING)
+    if (!cameraIdList.isEmpty()) {
+        for (cameraId in cameraIdList) {
+            val characteristics = cameraManager.getCameraCharacteristics(cameraId)
+            val facing = characteristics.get(CameraCharacteristics.LENS_FACING)
 
-      if (facing != null && facing == CameraCharacteristics.LENS_FACING_FRONT) {
-        val megapixels = getCameraMegapixels(characteristics)
-        val formattedMp = formatMegapixels(megapixels)
-        return "Front $formattedMp"
-      }
+            if (facing != null && facing == CameraCharacteristics.LENS_FACING_FRONT) {
+                val megapixels = getCameraMegapixels(characteristics)
+                val formattedMp = formatMegapixels(megapixels)
+                return "Front $formattedMp"
+            }
+        }
     }
 
     return "Unknown"
