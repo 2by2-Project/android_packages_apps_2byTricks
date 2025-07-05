@@ -52,8 +52,14 @@ class BannerPreferenceController(context: Context) : AbstractPreferenceControlle
         bannerPreference.findViewById<TextView>(R.id.processor_info)?.text =
             DeviceInfoUtil.getProcessor()
         bannerPreference.findViewById<TextView>(R.id.ram_info)?.text = DeviceInfoUtil.getTotalRam()
-        bannerPreference.findViewById<TextView>(R.id.camera_info)?.text =
-            "${DeviceInfoUtil.getFrontCameraMegapixels(mContext)} / ${DeviceInfoUtil.getRearCameraMegapixels(mContext)}"
+
+        try {
+            bannerPreference.findViewById<TextView>(R.id.camera_info)?.text =
+                "${DeviceInfoUtil.getFrontCameraMegapixels(mContext)} / ${DeviceInfoUtil.getRearCameraMegapixels(mContext)}"
+        } catch (e: Exception) {
+            bannerPreference.findViewById<TextView>(R.id.camera_info)?.text = "Unknown"
+        }
+
         bannerPreference.findViewById<TextView>(R.id.display_info)?.text =
             DeviceInfoUtil.getScreenResolution(mContext)
         bannerPreference.findViewById<TextView>(R.id.battery_info)?.text =
