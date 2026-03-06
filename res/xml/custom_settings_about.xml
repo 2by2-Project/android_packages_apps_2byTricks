@@ -12,7 +12,7 @@
     <!-- 2by2 Project logo -->
     <com.android.settingslib.widget.LayoutPreference
         android:key="logo_2by2"
-        android:layout="@layout/logo_2by2_layout"
+        android:layout="@layout/twobytwo_logo_layout"
         android:clickable="false"/>
 
     <!-- Info -->
