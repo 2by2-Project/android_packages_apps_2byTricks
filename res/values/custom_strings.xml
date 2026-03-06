@@ -12,7 +12,7 @@
     <string name="miscellaneous_title">Miscellaneous</string>
     <string name="miscellaneous_summary">Special settings (use it own risk!)</string>
     <string name="about_title">About</string>
-    <string name="about_summary">About 2by2 Project</string>
+    <string name="about_summary">About 2by2 ROM</string>
 
     <!-- Miscellaneous -->
     <string name="category_appearance_title">Appearance</string>
@@ -39,7 +39,7 @@
     <string name="ignore_window_secure_summary">Fixes black screenshots and recordings, May lead to privacy leaks, Restart apps to apply changes</string>
 
     <!-- About -->
-    <string name="about_info">2by2 Project is a which of "JP-focused" custom roms. We aim to provide clean AOSP experience with few additional features, and some JP goodies.</string>
+    <string name="about_info">2by2 ROM is a which of "JP-focused" custom roms. We aim to provide clean AOSP experience with few additional features, and some JP goodies.</string>
     <string name="about_website_title">Website</string>
     <string name="about_website_summary">Feel free to drop by our website</string>
     <string name="about_instagram_title" translatable="false">Instagram</string>
