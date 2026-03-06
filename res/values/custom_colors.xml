@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 The Evolution X Project
+     Copyright (C) 2025 The 2by2 Project
      SPDX-License-Identifier: Apache-2.0
 -->
-
-<resources
-    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-
-    <color name="homepage_evolution_background">#0060FF</color>
+<resources>
+    <color name="ic_device_name_storage_center_color">@android:color/system_accent1_100</color>
+    <color name="ic_device_name_storage_outer_color">@android:color/system_accent1_500</color>
+    <color name="ic_device_name_storage_rectangle_color">@android:color/system_accent3_500</color>
 </resources>
