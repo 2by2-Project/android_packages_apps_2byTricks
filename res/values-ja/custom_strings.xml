@@ -19,19 +19,49 @@
     <string name="disable_window_blurs_title">クイック設定のぼかし機能を無効化</string>
     <string name="disable_window_blurs_summary">ぼかし機能を無効にするとパフォーマンスが向上する可能性があります。また、一部デバイスでは最適化によりぼかし機能が強制的に無効になることがあります。</string>
     <!-- Miscellaneous - System -->
-    <string name="spoofing_pif_toggle_title">ROM 側の Play Integrity の修正</string>
-    <string name="spoofing_pif_toggle_summary">端末を偽装して Play Integrity に通過できるようにします。TrickyStore 等のサードパーティ製モジュールを使用するときはオフにしてください。</string>
-    <string name="spoofing_pif_manage_title">Play Integrity Fix の管理</string>
-    <string name="spoofing_pif_json_download_title">最新の pif.json をダウンロードする</string>
-    <string name="spoofing_pif_json_download_message">最新の pif.json をダウンロードしています</string>
-    <string name="spoofing_pif_json_select_title">pif.json をインポートして適用する</string>
-    <string name="spoofing_pif_json_select_success">Play Integrity Fix の値をアップデートしました。再起動して適用します。</string>
-    <string name="spoofing_photos_title">無制限の Google フォトストレージ</string>
-    <string name="spoofing_photos_summary">Google フォトを使用するとき、端末を Pixel XL に偽装します</string>
+
+    <!-- Google Play Integrity Spoof -->
+    <string name="pi_spoof_title">Google Play Integrity の偽装</string>
+    <string name="pi_spoof_summary">Google Play Integrity のためにデバイスを異なるモデルとして偽装します</string>
+
+    <!-- Vbmeta hash attestation -->
+    <string name="vbmeta_attestation_title">VBMeta 検出の自動修正</string>
+    <string name="vbmeta_attestation_summary">起動時にキー認証を実行し、検証済みのブートハッシュを生成します。システムの再起動が必要です。</string>
+
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">キーボックス認証のオーバーライド</string>
+    <string name="keybox_data_summary">デバイスのキー認証を通過させるため、カスタムキーボックスXMLを適用します</string>
+    <string name="keybox_data_loaded_summary">カスタムキーボックスXMLが読み込まれました。削除ボタンを押すとクリアします。</string>
+    <string name="keybox_delete_content_description">カスタムキーボックスをクリアする</string>
+    <string name="keybox_toast_invalid_file_selected">有効なキーボックスXMLではありません。再度選択してください。</string>
+    <string name="keybox_toast_missing_data">有効なキーボックスXMLではありません。認証データが欠落しています。</string>
+    <string name="keybox_toast_file_loaded">カスタムキーボックスXMLが読み込まれました</string>
+    <string name="keybox_toast_file_cleared">カスタムキーボックスXMLをクリアしました</string>
+
+    <!-- Block attestation even with Keybox Data -->
+    <string name="pi_gmscertchain_title">MEETS_STRONG_INTEGRITY を強制しない</string>
+    <string name="pi_gmscertchain_summary">有効なカスタム キーボックスからの MEETS_STRONG_INTEGRITY を強制せず、Google Play 整合性スプーフィングを使用することで、Google Pay が動作するようにします</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">ゲーム内でより高い FPS 設定を解放する</string>
+    <string name="use_games_spoof_summary">より高い FPS 設定を表示させるために、一部のゲームでは異なるモデルとしてデバイスを偽装します</string>
+
+    <!-- Netflix Spoof -->
+    <string name="netflix_spoof_title">Netflix 偽装</string>
+    <string name="netflix_spoof_summary">Netflix 向けに、異なるモデルとしてデバイスを偽装します</string>
+
+    <!-- Unlimited google photos storage -->
+    <string name="use_photos_spoof_title">無制限のフォトストレージ</string>
+    <string name="use_photos_spoof_summary">Google フォトアプリでのみ、デバイスを Pixel XL として偽装して、高画質での無制限のバックアップができるようにします</string>
+
+    <!-- Disable camera sounds -->
     <string name="disable_camera_sounds_title">シャッター音の強制無効化</string>
     <string name="disable_camera_sounds_summary">再起動が必要です。いかなる法的問題が発生しても 2by2 Project は責任を負いません。</string>
+
+    <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">ウィンドウのセキュアフラグを無視</string>
     <string name="ignore_window_secure_summary">すべてのアプリへのスクリーンショットや画面録画の制限を解除します。基本的に特別なアプリは録画の際、録画画面は黒く塗り潰されます。いくつかの場合で便利になることがありますが、プライバシー保護が脆弱になる可能性があります。この設定切り替えの後、効果を反映させるにはアプリの再起動が必要になる可能性があります。</string>
+
     <!-- About -->
     <string name="about_info">2by2 ROMは、主に日本人向けにフォーカスされたカスタムROMです。私たちはLineageOSに基づきクリーンなAOSP体験や追加機能などを提供します。</string>
     <string name="about_website_title">ホームページ</string>

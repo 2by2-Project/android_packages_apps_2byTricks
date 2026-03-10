@@ -14,16 +14,6 @@
         android:key="category_appearance"
         android:title="@string/category_appearance_title" />
 
-    <!-- QS Transparency -->
-    <jp.project2by2.settings.preferences.SystemSettingSeekBarPreference
-        android:key="qs_transparency"
-        android:title="@string/qs_transparency_title"
-        android:defaultValue="70"
-        settings:interval="1"
-        settings:units="%"
-        android:max="100"
-        android:min="1"/>
-
     <!-- QS Blurs -->
     <jp.project2by2.settings.preferences.GlobalSettingSwitchPreference
         android:key="disable_window_blurs"
@@ -36,23 +26,49 @@
         android:key="category_system"
         android:title="@string/category_system_title" />
 
-    <!-- Play Integrity Fix -->
-    <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pihooks.pi"
-        android:title="@string/spoofing_pif_toggle_title"
-        android:summary="@string/spoofing_pif_toggle_summary"
+    <!-- Google Play Integrity -->
+    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
+        android:key="pi_enable_spoof"
+        android:title="@string/pi_spoof_title"
+        android:summary="@string/pi_spoof_summary"
         android:defaultValue="true" />
 
-    <!-- Play Integrity Fix - JSON utils -->
-    <Preference
-        android:key="pif_json_manage_preference"
-        android:title="@string/spoofing_pif_manage_title" />
-
-    <!-- Google Photos -->
+    <!-- Vbmeta hash attestation -->
     <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pihooks.gphotos"
-        android:title="@string/spoofing_photos_title"
-        android:summary="@string/spoofing_photos_summary"
+        android:key="persist.sys.vbmeta.update"
+        android:title="@string/vbmeta_attestation_title"
+        android:summary="@string/vbmeta_attestation_summary"
+        android:defaultValue="true" />
+
+    <!-- Keybox Data -->
+    <jp.project2by2.settings.preferences.KeyboxDataPreference
+        android:key="keybox_data_setting"
+        android:title="@string/keybox_data_title"/>
+
+    <!-- Block attestation even with Keybox Data -->
+    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
+        android:key="pi_gms_cert_chain"
+        android:title="@string/pi_gmscertchain_title"
+        android:summary="@string/pi_gmscertchain_summary" />
+
+    <!-- Unlock FPS for specific games -->
+    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
+        android:key="pi_games_spoof"
+        android:title="@string/use_games_spoof_title"
+        android:summary="@string/use_games_spoof_summary" />
+
+    <!-- Unlimited google photos storage -->
+    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
+        android:key="pi_photos_spoof"
+        android:title="@string/use_photos_spoof_title"
+        android:summary="@string/use_photos_spoof_summary"
+        android:defaultValue="true" />
+
+    <!-- Netflix -->
+    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
+        android:key="pi_netflix_spoof"
+        android:title="@string/netflix_spoof_title"
+        android:summary="@string/netflix_spoof_summary"
         android:defaultValue="false" />
 
     <!-- Force disable camera sounds -->
