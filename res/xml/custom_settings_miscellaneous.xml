@@ -63,7 +63,7 @@
         android:defaultValue="false" />
 
     <!-- Ignore window secure flags -->
-    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
+    <jp.project2by2.settings.preferences.GlobalSettingSwitchPreference
             android:key="window_ignore_secure"
             android:title="@string/ignore_window_secure_title"
             android:summary="@string/ignore_window_secure_summary"
