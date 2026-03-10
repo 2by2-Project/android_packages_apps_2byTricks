@@ -29,6 +29,11 @@ public class CustomSettings extends DashboardFragment {
     }
 
     @Override
+    public String getCategoryKey() {
+        return CATEGORY_CUSTOM_SETTINGS;
+    }
+
+    @Override
     protected String getLogTag() {
         return TAG;
     }
