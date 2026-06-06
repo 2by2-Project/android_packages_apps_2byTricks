@@ -69,7 +69,7 @@
         android:summary="@string/about_contributor_1_summary">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/lahaina_RMX3687" />
+            android:data="https://t.me/kailua26_dev" />
     </Preference>
 
     <!-- Contributor 2 -->
